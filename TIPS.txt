@@ -22,3 +22,41 @@ $ git add TIPS.txt
 
 cvaras@TRUGTI04 MINGW64 /d/archivogit (master)
 $ git push -u origin master
+
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit
+$ git clone https://github.com/eduvarasperez/RepositorioPrueba
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (master)
+$ git pull origin master
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (master)
+$ git branch
+* master
+no muestra en que ramas estamos
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (master)
+$ git branch rama1
+--crea rama
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (master)
+$ git branch
+* master
+  rama1
+la rama con asterisco es la que se usa actual
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (master)
+$ git branch -m rama1 ramita1
+sirve para cambiar el nombre de la rama
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (master)
+$ git checkout ramita1
+sirve para cambiar de rama
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (master)
+$ git branch -d ramita1
+sirve para eliminar rama pero debemos estar en otra rama distinta para realizarlo
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (rama1)
+$ touch "texto.txt"
+sirve para crear archivo
