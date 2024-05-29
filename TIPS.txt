@@ -60,3 +60,10 @@ sirve para eliminar rama pero debemos estar en otra rama distinta para realizarl
 CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (rama1)
 $ touch "texto.txt"
 sirve para crear archivo
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (rama1)
+$ git add .
+este comando agrega todo los archivos
+
+CVARAS@WSAMZN-C2VARVC1 MINGW64 /d/clongit/RepositorioPrueba (rama1)
+$ git commit -m "estoy commiteando los archivos"
